@@ -1,6 +1,12 @@
 # Omarchy Theme: Bauhaus
 
-Updated for Omarchy v3.0!
+Updated for Omarchy 4, keeping the Omarchy 3 config files.
+
+## Install
+
+```bash
+omarchy theme install https://github.com/mwaltzer/omarchy-bauhaus-theme
+```
 
 A Bauhaus-inspired dark theme with warm coral and sand accents over cool slate/teal surfaces.
 
@@ -21,6 +27,9 @@ A Bauhaus-inspired dark theme with warm coral and sand accents over cool slate/t
 - Error:                #CB886D
 - Info:                 #8999AA
 - Selection Background: #2B3040
+
+## colors.toml
+Omarchy 4 generates every app config (terminals, btop, Hyprland borders, the shell bar, editors) from `colors.toml`, which mirrors `palette.yml`. The per-app files below are used by Omarchy 3.
 
 ## palette.yml
 Includes machine-readable values for:
